@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.app-container{
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+.login-form-container{
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+.signup-form-container{
+    width: 50%;
+    margin: auto;
+    display: none;
+
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+input{
+    width: 100%;
+    padding: 0.4em;
+    margin: 0.5em 0;
+
+}
+
+#table{
+    margin-top: 1em;
+    width: 100%;
+
+
+}
+
+thead{
+    background-color: aqua;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td{
+    width: 220px;
+    padding: 0.5em;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    background-color: aqua;
+}
+h2{
+    font-size: 2rem ;    
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+}
+.nav-item{
+    margin: 0 0.5rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 0.7rem;
+    display: none;
+}
+.nav-item:hover{
+    cursor: pointer;
+    background-color: rgba(256, 256, 256, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
